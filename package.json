@@ -1,17 +1,17 @@
 {
-  "name": "homebot.alisa",
+  "name": "homebot-alisa",
   "description": "",
   "version": "0.0.1",
   "contributors": [],
-  "homepage": "https://github.com/homebot/homebot.alisa",
+  "homepage": "https://github.com/homebot/homebot-alisa",
   "repository": {
     "type": "git",
-    "url": "https://github.com/homebot/homebot.alisa"
+    "url": "https://github.com/homebot/homebot-alisa"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/homebot/homebot.alisa/blob/master/LICENSE"
+      "url": "https://github.com/homebot/homebot-alisa/blob/master/LICENSE"
     }
   ],
   "keywords": [
@@ -22,9 +22,8 @@
   },
   "devDependencies": {},
   "bugs": {
-    "url": "https://github.com/homebot/homebot.alisa/issues"
+    "url": "https://github.com/homebot/homebot-alisa/issues"
   },
-  "main": "main.js",
   "scripts": {},
   "author": "",
   "license": "MIT"
