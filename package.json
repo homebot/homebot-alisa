@@ -1,0 +1,31 @@
+{
+  "name": "homebot.alisa",
+  "description": "",
+  "version": "0.0.1",
+  "contributors": [],
+  "homepage": "https://github.com/homebot/homebot.alisa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homebot/homebot.alisa"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/homebot/homebot.alisa/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "homebot"
+  ],
+  "dependencies": {
+    "yandex-dialogs-sdk": "^2.0.2"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/homebot/homebot.alisa/issues"
+  },
+  "main": "main.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT"
+}
