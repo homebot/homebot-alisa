@@ -1,11 +1,11 @@
-import alice from '../';
+const alice = require('../');
 
-export default async function (req, res) {
+module.exports = async function (req, res) {
   try {
     const jsonAnswer = await alice.handleRequest(req.body);
     res.json(jsonAnswer);
-  } catch(err) {
+  } catch (err) {
     res.status(400)
-       .send('Bad request');
+      .send('Bad request');
   }
 }

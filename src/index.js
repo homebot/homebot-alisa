@@ -1,11 +1,11 @@
-import { Alice } from 'yandex-dialogs-sdk';
-const alice = new Alice();
+const yandexDialogSDK = require('yandex-dialogs-sdk');
+const alice = new yandexDialogSDK.Alice();
 
-import * as welcome from './command/welcome';
-import * as skills from './command/skills';
-import * as myDevices from './command/my-devices';
-import * as light from './command/light';
-import any from './command/any';
+const welcome = require('./command/welcome');
+const skills = require('./command/skills');
+const myDevices = require('./command/my-devices');
+const light = require('./command/light');
+const any = require('./command/any');
 
 alice.command(welcome.matcher, welcome.handler);
 alice.command(skills.matcher, skills.handler);
@@ -16,4 +16,4 @@ alice.command(light.turnOnWhereMatcher, light.turnOnWhereHandler);
 alice.command(light.turnOffWhereMatcher, light.turnOffWhereHandler);
 alice.any(any);
 
-export default alice;
+module.exports = alice;

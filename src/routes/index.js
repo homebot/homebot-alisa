@@ -1,7 +1,9 @@
-import express from 'express';
-import alisa from '../controllers';
+const express = require('express');
+const alice = require('../controllers');
 
-const routes = express.Router({ mergeParams: true })
+const routes = express.Router({
+  mergeParams: true
+});
 
 /**
  * @swagger
@@ -20,6 +22,6 @@ const routes = express.Router({ mergeParams: true })
  */
 
 routes.route('/')
-  .post(alisa)
+  .post(alice)
 
 module.exports = routes;
