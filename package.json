@@ -18,7 +18,8 @@
     "homebot"
   ],
   "dependencies": {
-    "yandex-dialogs-sdk": "^2.0.2"
+    "yandex-dialogs-sdk": "^2.0.2",
+    "mqtt": "^2.1.8"
   },
   "devDependencies": {},
   "bugs": {
