@@ -1,6 +1,6 @@
 const alice = require('yandex-dialogs-sdk');
-const httpRequest = require('../../../../../helpers/http');
-const config = require('../../../../../config/dev');
+const httpRequest = require('../../../../../src/helpers/http');
+const config = require('../../../../../src/config/dev');
 
 const matcher = ['Показать мои устройства',
   'Показать мои девайсы',

@@ -1,9 +1,9 @@
 const alice = require('yandex-dialogs-sdk');
 const _ = require('lodash');
 
-const httpRequest = require('../../../../../helpers/http');
-const config = require('../../../../../config/dev');
-const mqtt = require('../../../../../db/mqtt');
+const httpRequest = require('../../../../../src/helpers/http');
+const config = require('../../../../../src/config/dev');
+const mqtt = require('../../mqtt');
 
 exports.turnOnMatcher = function (ctx) {
   return ctx.message.search(/^Вкл[а-я]* свет.?$/i) !== -1
