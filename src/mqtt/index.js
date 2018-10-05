@@ -1,5 +1,5 @@
 const mqtt = require('mqtt');
-const config = require('../../../../src/config/dev');
+const config = require('config');
 
 const client = mqtt.connect({
     host: config.mqtt.host,
@@ -9,10 +9,10 @@ const client = mqtt.connect({
 })
 
 client.on('connect', () => {
-    console.log("Connection with MQTT broker succeeded");
+    console.log("Homebot-alisa: Connection with MQTT broker succeeded");
 });
 
-client.on("error", error => { 
+client.on("error", error => {
     console.log("Can't connect " + error);
 });
 
